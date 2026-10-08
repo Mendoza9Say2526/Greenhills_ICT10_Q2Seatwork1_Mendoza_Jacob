@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Nickname Atlas</title>
+</head>
+<body>
+    <h1>The Nickname Atlas of Southeast Asia</h1>
+    <h2>Select a Southeast Asian country.</h2>
+    <div class="box">
+        <select id="country">
+            <option value="Land of Unexpected Treasures">Brunei</option>
+            <option value="Kingdom of Wonder">Cambodia</option>
+            <option value="Emerald of the Equator">Indonesia</option>
+            <option value="Land of a Million Elephants">Laos</option>
+            <option value="Land of Diversity">Malaysia</option>
+            <option value="The Golden Land">Myanmar</option>
+            <option value="The Welcoming Home">Philippines</option>
+            <option value="The Lion City">Singapore</option>
+            <option value="Land of Smiles">Thailand</option>
+            <option value="Land of the Crocodile">Timor-Leste</option>
+            <option value="Land of the Blue Dragon">Vietnam</option>
+        </select>
+
+        <button type="button" py-click = "reveal_nickname">
+            Reveal the Nickname!
+        </button>
+
+        <div id="div1"></div>
+    </div>
+<py-script src="main.py"></py-script>
+</body>
+</html>

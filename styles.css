@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    background-color: lightblue;
+    color: white;
+
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+select {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 8px 12px;
+}
+
+#div1 {
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    min-height: 30px;
+    text-align: center;
+}
